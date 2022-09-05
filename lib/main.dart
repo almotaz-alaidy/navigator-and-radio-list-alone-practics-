@@ -30,6 +30,13 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  List MyListItem = [
+    "flutter",
+    "full stack",
+    "quality assurance",
+    "java development"
+  ];
+  String SelectedItem = "flutter";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -165,6 +172,26 @@ class _HomeState extends State<Home> {
                     );
                   },
                 );
+              },
+            ),
+            Container(
+              child: Text(
+                "choose a corse frome drob down menue ",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            DropdownButton(
+              value: SelectedItem,
+              items: MyListItem.map(
+                (e) => DropdownMenuItem(value: e, child: Text("$e")),
+              ).toList(),
+              onChanged: (value) {
+                setState(() {
+                  SelectedItem = value.toString();
+                });
               },
             )
           ],
