@@ -17,7 +17,11 @@ class _GenderState extends State<Gender> {
         appBar: AppBar(
           title: Text(
             "gender",
-            style: TextStyle(fontSize: 40, color: Colors.grey),
+            style: TextStyle(
+              fontSize: 40,
+              color: Colors.grey,
+              fontFamily: "DancingScript-VariableFont_wght",
+            ),
           ),
           backgroundColor: Color.fromARGB(255, 192, 77, 77),
         ),
@@ -37,7 +41,10 @@ class _GenderState extends State<Gender> {
               Container(
                 child: Text(
                   "please enter your gender ",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontFamily: "DancingScript-VariableFont_wght"),
                 ),
               ),
               RadioListTile(
@@ -73,7 +80,10 @@ class _GenderState extends State<Gender> {
               Container(
                 child: Text(
                   "A study published in the Journal of Cancer found that gay men were 1.9 times more likely to report cancer than men who had sex with women, and that gay and bisexual women were 1.9 times more likely to report poor health or slightly better than poor health. 2.0 times and 2.3 times higher, respectively, compared to women who had cancer survivors who had sex with men [19], and in a related interview, the study's lead researcher, Dr. . Examples of non-AIDS related cancers were: “anal, lung, testicular, and Hodgkin’s lymphoma.",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontFamily: "DancingScript-VariableFont_wght"),
                 ),
               ),
               Divider(

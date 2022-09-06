@@ -16,8 +16,9 @@ class _AgeState extends State<Age> {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            "gender",
-            style: TextStyle(fontSize: 40, color: Colors.grey),
+            "age",
+            style: TextStyle(
+                fontSize: 40, color: Colors.grey, fontFamily: "Combo-Regular"),
           ),
           backgroundColor: Color.fromARGB(255, 192, 77, 77),
         ),
@@ -39,7 +40,10 @@ class _AgeState extends State<Age> {
                   padding: EdgeInsets.only(top: 20),
                   child: Text(
                     "choose your age ",
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                    style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.white,
+                        fontFamily: "Combo-Regular"),
                   ),
                 ),
                 Divider(
@@ -157,7 +161,9 @@ class _AgeState extends State<Age> {
                 ),
                 Container(
                   child: Text(
-                      "to rigist you your age have to be between thees ages"),
+                    "to rigist you your age have to be between thees ages",
+                    style: TextStyle(fontFamily: "Combo-Regular"),
+                  ),
                 ),
                 Divider(
                   height: 1,

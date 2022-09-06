@@ -17,7 +17,10 @@ class _NantionalityState extends State<Nantionality> {
         appBar: AppBar(
           title: Text(
             "nationality",
-            style: TextStyle(fontSize: 40, color: Colors.grey),
+            style: TextStyle(
+                fontSize: 40,
+                color: Colors.grey,
+                fontFamily: "DancingScript-VariableFont_wght"),
           ),
           backgroundColor: Color.fromARGB(255, 192, 77, 77),
         ),
@@ -39,7 +42,10 @@ class _NantionalityState extends State<Nantionality> {
                 padding: EdgeInsets.only(top: 20),
                 child: Text(
                   "please enter your nationality ",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontFamily: "DancingScript-VariableFont_wght"),
                 ),
               ),
               Divider(
@@ -99,7 +105,6 @@ class _NantionalityState extends State<Nantionality> {
               Divider(
                 height: 20,
               ),
-
               RadioListTile(
                 secondary: Image(
                     image: NetworkImage(
@@ -118,7 +123,6 @@ class _NantionalityState extends State<Nantionality> {
               Divider(
                 height: 20,
               ),
-
               RadioListTile(
                 secondary: Image(
                     image: NetworkImage(
@@ -158,12 +162,15 @@ class _NantionalityState extends State<Nantionality> {
               Container(
                 child: Text(
                   "you have to be frome one of these country ",
-                  style: TextStyle(fontSize: 25, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 25,
+                      color: Colors.white,
+                      fontFamily: "DancingScript-VariableFont_wght"),
                 ),
               ),
-
               ElevatedButton(
-                style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+                style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.grey)),
                 onPressed: () {
                   setState(() {
                     Navigator.pop(context, () {

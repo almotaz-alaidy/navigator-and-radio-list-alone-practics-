@@ -69,9 +69,9 @@ class _HomeState extends State<Home> {
               child: Text(
                 "welcome oure lover student we wont frome you to give us a fiwe info so thanks for your time",
                 style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
+                    fontSize: 20,
+                    color: Colors.white,
+                    fontFamily: "Anton-Regular"),
               ),
             ),
             Divider(
@@ -82,7 +82,9 @@ class _HomeState extends State<Home> {
               child: Text(
                 "choose your gender",
                 style: TextStyle(
-                    color: Color.fromARGB(255, 192, 77, 77), fontSize: 20),
+                    color: Color.fromARGB(255, 192, 77, 77),
+                    fontSize: 20,
+                    fontFamily: "Anton-Regular"),
               ),
               onPressed: () {
                 setState(
@@ -107,7 +109,9 @@ class _HomeState extends State<Home> {
               child: Text(
                 "choose your natihonality",
                 style: TextStyle(
-                    color: Color.fromARGB(255, 192, 77, 77), fontSize: 20),
+                    color: Color.fromARGB(255, 192, 77, 77),
+                    fontSize: 20,
+                    fontFamily: "Anton-Regular"),
               ),
               onPressed: () {
                 setState(
@@ -132,7 +136,9 @@ class _HomeState extends State<Home> {
               child: Text(
                 "choose your age (have to be between 18-23)",
                 style: TextStyle(
-                    color: Color.fromARGB(255, 192, 77, 77), fontSize: 15),
+                    color: Color.fromARGB(255, 192, 77, 77),
+                    fontSize: 15,
+                    fontFamily: "Anton-Regular"),
               ),
               onPressed: () {
                 setState(
@@ -157,7 +163,9 @@ class _HomeState extends State<Home> {
               child: Text(
                 "wiche corse want to rigister in ",
                 style: TextStyle(
-                    color: Color.fromARGB(255, 192, 77, 77), fontSize: 20),
+                    color: Color.fromARGB(255, 192, 77, 77),
+                    fontSize: 20,
+                    fontFamily: "Anton-Regular"),
               ),
               onPressed: () {
                 setState(
@@ -178,9 +186,9 @@ class _HomeState extends State<Home> {
               child: Text(
                 "choose a corse frome drob down menue ",
                 style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
-                ),
+                    fontSize: 20,
+                    color: Colors.white,
+                    fontFamily: "Anton-Regular"),
               ),
             ),
             DropdownButton(

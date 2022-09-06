@@ -17,7 +17,8 @@ class _CoursesState extends State<Courses> {
         appBar: AppBar(
           title: Text(
             "courses",
-            style: TextStyle(fontSize: 40, color: Colors.grey),
+            style: TextStyle(
+                fontSize: 40, color: Colors.grey, fontFamily: "Combo-Regular"),
           ),
           backgroundColor: Color.fromARGB(255, 192, 77, 77),
         ),
@@ -39,7 +40,10 @@ class _CoursesState extends State<Courses> {
                 padding: EdgeInsets.only(top: 20),
                 child: Text(
                   "choose a course to rigister on ",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontFamily: "Combo-Regular"),
                 ),
               ),
               Divider(
@@ -124,7 +128,10 @@ class _CoursesState extends State<Courses> {
               Container(
                 child: Text(
                   "Take  your opportunity to get ajob and have  in a professional manner and distinctive skills",
-                  style: TextStyle(fontSize: 30, color: Colors.white),
+                  style: TextStyle(
+                      fontSize: 30,
+                      color: Colors.white,
+                      fontFamily: "Combo-Regular"),
                 ),
               ),
               Divider(
